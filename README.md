@@ -6,9 +6,9 @@
 
 ## 미리보기
 
-| 기술 보고서 | Daily Briefing | 비즈니스 |
+| | | |
 |:---:|:---:|:---:|
-| ![tech](examples/preview-tech.png) | ![daily](examples/preview-daily.png) | ![biz](examples/preview-biz.png) |
+| ![preview-1](examples/preview-1.png) | ![preview-2](examples/preview-2.png) | ![preview-3](examples/preview-3.png) |
 
 ## 특징
 
@@ -16,7 +16,7 @@
 - **4가지 색상 팔레트** — 기술(Blue), 비즈니스(Dark), 학술(Purple), 강의(Teal)
 - **유틸리티 함수** — callout, badge, info-block, 줄무늬 테이블
 - **자동 검증 루프** — PyMuPDF 기반 고아 제목(orphan heading) 탐지 + quality_score 채점
-- **Claude Code 스킬** — `.claude/skills/`에 복사하면 `/typst-report` 명령으로 바로 사용
+- **Claude Code 스킬** — `.claude/skills/`에 복사하면 `/typst-korean` 명령으로 바로 사용
 
 ## 설치
 
@@ -117,10 +117,10 @@ typst-korean-report/
 
 ```bash
 # 방법 1: 직접 복사
-cp -r skill/ /path/to/your-project/.claude/skills/typst-report/
+cp -r skill/ /path/to/your-project/.claude/skills/typst-korean/
 
 # 방법 2: 심볼릭 링크
-ln -s $(pwd)/skill /path/to/your-project/.claude/skills/typst-report
+ln -s $(pwd)/skill /path/to/your-project/.claude/skills/typst-korean
 ```
 
 ### 사용 예시
